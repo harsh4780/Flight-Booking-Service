@@ -5,6 +5,13 @@ const SEAT_TYPE = {
     FIRST_CLASS: 'first-class'
 }
 
+const BOOKING_STATUS = {
+    CANCELED: 'canceled',
+    BOOKED: 'booked',
+    INITIATED:'initiated',
+    PENDING: 'pending',
+}
 module.exports = {
-    SEAT_TYPE
+    SEAT_TYPE,
+    BOOKING_STATUS
 }
